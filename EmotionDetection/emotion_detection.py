@@ -28,5 +28,5 @@ def emotion_detector(text_to_analyse): # Define a function named emotion_detecto
         "fear": fear,
         "joy": joy,
         "sadness": sadness,
-        "dominant_emotion": dominant_emotion
+        "emotion": dominant_emotion
     }
