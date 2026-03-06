@@ -12,8 +12,6 @@ def emotion_detector(text_to_analyse): # Define a function named emotion_detecto
     # Parsing the JSON response from the API
     formatted_response = json.loads(response.text)
 
-    print(formatted_response)
-
     emotions = formatted_response["emotionPredictions"][0]["emotion"]
 
     anger = emotions["anger"]
